@@ -1,0 +1,7 @@
+{
+  "name": "inSobreposta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
