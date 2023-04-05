@@ -28,10 +28,6 @@ export const routes: Routes = [
     loadComponent: () => import('./sobre/sobre.page').then( m => m.SobrePage)
   },
   {
-    path: 'historia',
-    loadComponent: () => import('./historia/historia.page').then( m => m.HistoriaPage)
-  },
-  {
     path: 'resultados',
     loadComponent: () => import('./resultados/resultados.page').then( m => m.ResultadosPage)
   },

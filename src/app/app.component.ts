@@ -16,7 +16,6 @@ export class AppComponent {
     { title: 'Pontos de interesse', url: '/pontos-interesse'},
     { title: 'Establecimentos', url: '/establecimentos'},
     { title: 'Sobre Sobreposta', url: '/sobre'},
-    { title: 'História', url: '/historia'},
     { title: 'Resulatdos desportivos', url: '/resultados'},
     { title: 'Contactos', url: '/contactos'},
     { title: 'Definições', url: '/definicoes'},
