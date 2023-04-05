@@ -11,13 +11,16 @@ import { IonicModule } from '@ionic/angular';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/spam', icon: 'warning' },
+    { title: 'Inicio', url: '/inicio'},
+    { title: 'Notícias', url: '/noticias'},
+    { title: 'Pontos de interesse', url: '/pontos-interesse'},
+    { title: 'Establecimentos', url: '/establecimentos'},
+    { title: 'Sobre Sobreposta', url: '/sobre'},
+    { title: 'História', url: '/historia'},
+    { title: 'Resulatdos desportivos', url: '/resultados'},
+    { title: 'Contactos', url: '/contactos'},
+    { title: 'Definições', url: '/definicoes'},
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
   constructor() {}
 }
