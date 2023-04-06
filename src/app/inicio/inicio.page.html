@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="green">
     <ion-title>Inicio</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
@@ -10,7 +10,147 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">inicio</ion-title>
+      <ion-title size="large">Início</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <h3>Notícias</h3>
+  
+  <div class="scrolling-wrapper">
+    <div class="card">
+      <ion-card color="light-green" class="noticia" button="true" onclick="window.open('https://jfsobreposta.pt/index.php/sobreposta/noticias/51-magusto-em-sobreposta-reune-populacao', '_system', 'location=yes'); return false">
+        <ion-img src="/assets/images/magusto.jpg" />
+        <ion-card-header>
+          <ion-card-title>Magusto</ion-card-title>
+          <ion-card-subtitle>População reuni-se para festejar.</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <div class="card">
+      <ion-card color="light-green" class="noticia" button="true" onclick="window.open('https://jfsobreposta.pt/index.php/sobreposta/noticias/49-sobreposta-assinala-dia-do-pai-com-caminhada-e-plantacao-de-arvores', '_system', 'location=yes'); return false">
+        <img src="/assets/images/diadopai2018.jpg" />
+        <ion-card-header>
+          <ion-card-title>Dia do pai</ion-card-title>
+          <ion-card-subtitle>Caminhada e plantação de arvores.</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <div class="card">
+      <ion-card color="light-green" class="noticia" button="true" onclick="window.open('https://jfsobreposta.pt/index.php/sobreposta/noticias/48-centenas-no-carnaval-de-espinho-sobreposta-e-pedralva', '_system', 'location=yes'); return false">
+        <img src="/assets/images/carnaval.jpg" />
+        <ion-card-header>
+          <ion-card-title>Carnaval</ion-card-title>
+          <ion-card-subtitle>Centenas se juntaram na fantasia.</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <div class="card">
+      <ion-card color="light-green" class="noticia" button="true" onclick="window.open('https://jfsobreposta.pt/index.php/sobreposta/noticias/46-1-trail-solidario-envolve-1500-participantes', '_system', 'location=yes'); return false">
+        <img src="/assets/images/trail.jpg" />
+        <ion-card-header>
+          <ion-card-title>Trail solidário</ion-card-title>
+          <ion-card-subtitle>1º Trail solidário conta 1500 participantes.</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <div class="card">
+      <ion-card color="light-green" class="noticia" button="true" onclick="window.open('https://jfsobreposta.pt/index.php/sobreposta/noticias/43-tradicao-repete-se-em-sobreposta-com-almoco-', '_system', 'location=yes'); return false">
+        <img src="/assets/images/natal.jpg" />
+        <ion-card-header>
+          <ion-card-title>Almoço de Natal</ion-card-title>
+          <ion-card-subtitle>Tradição repete-se em Sobreposta.</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+  </div>
+  
+  <h3>Atividades</h3>
+
+  <div class="atividade">
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-header>
+            <ion-card-title>Futebol</ion-card-title>
+            <ion-card-subtitle>Sábado 01/04 - 15:00</ion-card-subtitle>
+          </ion-card-header>
+          </ion-col>
+          <ion-col>
+            <ion-card-content>
+              Sobreposta FC <p>vs</p> S.Mamede FC
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-card-content>
+        Campo de Futebol de Sobreposta
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-header>
+            <ion-card-title>Futebol</ion-card-title>
+            <ion-card-subtitle>Sábado 08/04 - 14:00</ion-card-subtitle>
+          </ion-card-header>
+          </ion-col>
+          <ion-col>
+            <ion-card-content>
+              FC Alegrienses <p>vs</p> Sobreposta FC
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-card-content>
+        Complexo Desportivo da Rodovia
+      </ion-card-content>
+    </ion-card>
+    
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-header>
+            <ion-card-title>Passeio</ion-card-title>
+            <ion-card-subtitle>Domingo 09/04 - 9:00</ion-card-subtitle>
+          </ion-card-header>
+          </ion-col>
+          <ion-col>
+            <ion-card-content>
+              Passeio até a Serra da Estrela com almoço incluído.              
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-card-content>
+        Pto. de Encontro: Parque de merendas de Sobreposta
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-card-header>
+            <ion-card-title>Sunset</ion-card-title>
+            <ion-card-subtitle>Sábado 15/04 - 18:00</ion-card-subtitle>
+          </ion-card-header>
+          </ion-col>
+          <ion-col>
+            <ion-card-content>
+              Sunset com música, bar e dj's.
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-card-content>
+        Parque de merendas de Sobreposta
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  
+
 </ion-content>

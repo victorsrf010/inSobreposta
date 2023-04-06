@@ -1,0 +1,61 @@
+ion-menu-button.ios {
+    color: #417948;
+}
+
+
+
+ion-title.ios {
+    background: rgb(255, 255, 255);
+    color: #417948;
+}
+
+ion-card-subtitle.ios {
+    font-size: 10px;
+}
+
+
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+      object-fit: cover;
+      height: 300px;
+      width: 300px;
+    }
+}
+
+.noticia {
+    background: var(ion-color-light-green);
+    color: rgb(255, 255, 255);
+}
+
+.atividade {
+    padding-top: 10px;
+    
+    ion-card-title, ion-card-subtitle {
+        color: #ffffff;
+        
+    }
+
+    ion-card {
+        --background: #7c7c7c;
+        --color: #ffffff;
+        height: 150px;
+    }
+
+    ion-card-content {
+        text-align: center;
+    }
+}
+
+
+
+h3 {
+    width: 100%;
+    color: #417948;
+    padding-left: 16px;
+}
