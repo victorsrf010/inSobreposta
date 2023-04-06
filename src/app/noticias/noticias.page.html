@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="green">
     <ion-title>Notícias</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
@@ -10,7 +10,19 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">noticias</ion-title>
+      <ion-title size="large">Notícias</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-searchbar placeholder="Procurar" [debounce]="1000" (ionChange)="handleChange($event)"></ion-searchbar>
+
+  <div class="card" *ngFor="let noticia of noticias" [hidden]="noticia.titulo.indexOf(searchTerm) === -1 && noticia.subtitulo.indexOf(searchTerm) === -1">
+    <ion-card color="light-green" class="noticia" button="true" (click)="openLink(noticia.link)">
+      <ion-img src="{{noticia.imagem}}" />
+      <ion-card-header>
+        <ion-card-title>{{noticia.titulo}}</ion-card-title>
+        <ion-card-subtitle>{{noticia.subtitulo}}</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </div>
 </ion-content>
