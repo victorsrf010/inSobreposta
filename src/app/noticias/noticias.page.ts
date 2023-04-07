@@ -49,10 +49,10 @@ export class NoticiasPage implements OnInit {
   searchTerm: string = '';
 
   filteredNoticias() {
-  return this.noticias.filter(noticia => {
-    return noticia.titulo.toLowerCase().includes(this.searchTerm.toLowerCase());
-  });
-}
+    return this.noticias.filter(noticia => {
+      return noticia.titulo.toLowerCase().includes(this.searchTerm.toLowerCase());
+    });
+  }
 
   handleChange(event: any) {
     this.searchTerm = event.detail.value;

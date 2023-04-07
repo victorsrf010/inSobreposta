@@ -29,6 +29,7 @@ ion-card-subtitle.ios {
 .noticia {
     background: var(ion-color-light-green);
     color: rgb(255, 255, 255);
+
 }
 
 .atividade {
@@ -42,11 +43,16 @@ ion-card-subtitle.ios {
     ion-card {
         --background: #7c7c7c;
         --color: #ffffff;
-        height: 150px;
+        
+        min-height: fit-content;
     }
 
     ion-card-content {
         text-align: center;
+    }
+
+    ion-col {
+        width: 100%;
     }
 }
 

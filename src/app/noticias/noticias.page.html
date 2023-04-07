@@ -17,7 +17,7 @@
   <ion-searchbar placeholder="Procurar" [debounce]="1000" (ionChange)="handleChange($event)"></ion-searchbar>
 
   <div class="card" *ngFor="let noticia of noticias" [hidden]="noticia.titulo.indexOf(searchTerm) === -1 && noticia.subtitulo.indexOf(searchTerm) === -1">
-    <ion-card color="light-green" class="noticia" button="true" (click)="openLink(noticia.link)">
+    <ion-card color="green" class="noticia" button="true" (click)="openLink(noticia.link)">
       <ion-img src="{{noticia.imagem}}" />
       <ion-card-header>
         <ion-card-title>{{noticia.titulo}}</ion-card-title>
