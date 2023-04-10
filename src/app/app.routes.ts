@@ -32,16 +32,10 @@ export const routes: Routes = [
     loadComponent: () => import('./contactos/contactos.page').then( m => m.ContactosPage)
   },
   {
-    path: 'definicoes',
-    loadComponent: () => import('./definicoes/definicoes.page').then( m => m.DefinicoesPage)
-  },
-  {
     path: 'inicio',
     loadComponent: () => import('./inicio/inicio.page').then( m => m.InicioPage)
-  },  {
-    path: 'establecimentos-detalhe',
-    loadComponent: () => import('./establecimentos-detalhe/establecimentos-detalhe.page').then( m => m.EstablecimentosDetalhePage)
   },
+  
 
 
 ];

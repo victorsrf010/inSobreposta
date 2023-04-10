@@ -15,10 +15,9 @@ export class AppComponent {
     { title: 'Inicio', url: '/inicio'},
     { title: 'Notícias', url: '/noticias'},
     { title: 'Pontos de interesse', url: '/pontos-interesse'},
-    { title: 'Establecimentos', url: '/establecimentos'},
+    { title: 'Estabelecimentos', url: '/establecimentos'},
     { title: 'Sobre Sobreposta', url: '/sobre'},
     { title: 'Contactos', url: '/contactos'},
-    { title: 'Definições', url: '/definicoes'},
   ];
 
   constructor() {}

@@ -13,9 +13,11 @@ import { IonicModule } from '@ionic/angular';
 export class ContactosPage implements OnInit {
 
   public contactos = [
-    { nome: 'GNR Sameiro', numero: '253 444 678', url: '/establecimentos-detalhe'},
-    { nome: 'Lagoa', morada: 'Lagoa Rua' },
-    { nome: 'Bomba', morada: 'Bomba Rua' },
+    { nome: 'GNR Sameiro', numero: '253 203 030'},
+    { nome: 'Hospital S.Marcos', numero: '253 209 000'},
+    { nome: 'PSP', numero: '253 200 420'},
+    { nome: 'Bombeiros Municipais', numero: '253 264 077'},
+    { nome: 'Jardim de Infância', numero: '253 636 303'},
   ]
 
   constructor() { }
