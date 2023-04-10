@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -16,7 +17,6 @@ export class AppComponent {
     { title: 'Pontos de interesse', url: '/pontos-interesse'},
     { title: 'Establecimentos', url: '/establecimentos'},
     { title: 'Sobre Sobreposta', url: '/sobre'},
-    { title: 'Resulatdos desportivos', url: '/resultados'},
     { title: 'Contactos', url: '/contactos'},
     { title: 'Definições', url: '/definicoes'},
   ];

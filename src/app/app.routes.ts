@@ -28,10 +28,6 @@ export const routes: Routes = [
     loadComponent: () => import('./sobre/sobre.page').then( m => m.SobrePage)
   },
   {
-    path: 'resultados',
-    loadComponent: () => import('./resultados/resultados.page').then( m => m.ResultadosPage)
-  },
-  {
     path: 'contactos',
     loadComponent: () => import('./contactos/contactos.page').then( m => m.ContactosPage)
   },
@@ -42,6 +38,10 @@ export const routes: Routes = [
   {
     path: 'inicio',
     loadComponent: () => import('./inicio/inicio.page').then( m => m.InicioPage)
+  },  {
+    path: 'establecimentos-detalhe',
+    loadComponent: () => import('./establecimentos-detalhe/establecimentos-detalhe.page').then( m => m.EstablecimentosDetalhePage)
   },
+
 
 ];
